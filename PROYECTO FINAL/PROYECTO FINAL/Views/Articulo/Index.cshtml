@@ -1,0 +1,70 @@
+﻿@model IEnumerable<PROYECTO_FINAL.Models.articulo>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Listado de Articulos</h2>
+
+<p>
+    <a href="/Articulo/Create" class="btn btn-success">Nuevo</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            Categoria
+        </th>
+        <th>
+            Codigo Articulo
+        </th>
+        <th>
+            Nombre del Articulo
+        </th>
+        <th>
+            Stock
+        </th>
+        <th>
+            Descripción
+        </th>
+        <th>
+            Imagen
+        </th>
+        <th>
+            Precio
+        </th>
+        <th>Acción</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoria.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.codigo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stock)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            <a href="~/Uploads/@item.imagen" target="_blank"><img src="~/Uploads/@item.imagen" alt="Alternate Text" width="100" height="100" class="img-circle" /></a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.price)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.idarticulo }, new { @class="btn btn-primary" }) 
+            @Html.ActionLink("Detalles", "Details", new { id = item.idarticulo }, new { @class = "btn btn-info" }) 
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.idarticulo }, new { @class = "btn btn-google"})
+        </td>
+    </tr>
+}
+
+</table>

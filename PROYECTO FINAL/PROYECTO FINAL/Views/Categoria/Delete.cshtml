@@ -1,0 +1,33 @@
+﻿@model PROYECTO_FINAL.Models.categoria
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>¿Esta Seguro que desea Eliminar la Categoria?</h3>
+<table class="table table-bordered table-hover alert alert-lineal">
+    <tr>
+        <th>Nombre de La Categoria</th>
+        <td>@Html.DisplayFor(model => model.nombre)</td>
+    </tr>
+    <tr>
+        <th>Descripción de la Categoria</th>
+        <td>@Html.DisplayFor(model => model.descripcion)</td>
+    </tr>
+</table>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> 
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li class="previous"><a href="/Categoria/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+                </ul>
+            </nav>
+        </div>
+    }

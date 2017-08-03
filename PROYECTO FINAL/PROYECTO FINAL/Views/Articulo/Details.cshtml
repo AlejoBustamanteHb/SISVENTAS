@@ -1,0 +1,51 @@
+﻿@model PROYECTO_FINAL.Models.articulo
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Detalles del Articulo</h2>
+
+
+<div class="jumbotron">
+    <center><img src="~/Uploads/@Html.DisplayFor(model => model.imagen)" class="thumbnail" alt="Alternate Text" width="700" /></center><br /><br />
+    <table class="table table-bordered table-hover alert alert-lineal">
+        <tr>
+            <th>Categoria</th>
+            <td>@Html.DisplayFor(model => model.categoria.nombre)</td>
+        </tr>
+        <tr>
+            <th>Codigo del Articulo</th>
+            <td>@Html.DisplayFor(model => model.codigo)</td>
+        </tr>
+        <tr>
+            <th>Nombre del Articulo</th>
+            <td>@Html.DisplayFor(model => model.nombre)</td>
+        </tr>
+        <tr>
+            <th>Stock</th>
+            <td>@Html.DisplayFor(model => model.stock)</td>
+        </tr>
+        <tr>
+            <th>Descripción del Articulo</th>
+            <td>@Html.DisplayFor(model => model.descripcion)</td>
+        </tr>
+        <tr>
+            <th>Precio del Articulo</th>
+            <td>$ @Html.DisplayFor(model => model.price)</td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.idarticulo }, new { @class = "btn btn-primary" }) 
+    <nav aria-label="...">
+        <ul class="pager">
+            <li class="previous"><a href="/Articulo/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+        </ul>
+    </nav>
+</p>

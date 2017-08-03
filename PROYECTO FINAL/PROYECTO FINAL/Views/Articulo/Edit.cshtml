@@ -1,0 +1,94 @@
+﻿@model PROYECTO_FINAL.Models.articulo
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<h2>Editar el Articulo</h2>
+
+@using (Html.BeginForm("Edit", "Articulo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.idarticulo)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.idcategoria, "Categoria del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("idcategoria", null, String.Empty, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.idcategoria)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.codigo, "Codigo del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.codigo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.codigo)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nombre, "Nombre del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.nombre, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.nombre)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.stock, "Stock del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.stock, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.stock)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.descripcion, "Descripción del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.descripcion, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.descripcion)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.imagen, "Imagen del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="file" value=" " />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.estado, "Estado del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.estado, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.estado)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.price, "Precio del Articulo", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.price, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.price)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar Cambios" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+<nav aria-label="...">
+    <ul class="pager">
+        <li class="previous"><a href="/Articulo/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+    </ul>
+</nav>

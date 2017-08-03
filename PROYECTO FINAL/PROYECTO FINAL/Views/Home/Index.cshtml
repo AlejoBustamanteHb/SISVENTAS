@@ -1,0 +1,81 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+<span class="ir-arriba glyphicon glyphicon-chevron-up"></span>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" ng-controller="IndexController">
+
+    <!-- Wrapper for slides -->
+    <div ng-controller="IndexController" id="slides_control">
+        <div>
+            <carousel interval="myInterval">
+                <slide ng-repeat="slide in slides" active="slide.active">
+                    <img ng-src="{{slide.route}}" class="itufo">
+                    <div class="carousel-caption">
+                        <h4>Slide {{$index+1}}</h4>
+                        <a class="btn btn-success" href="/Home/Index/#goBot"><i class="glyphicon glyphicon-th"></i></a>
+                    </div>
+                </slide>
+            </carousel>
+        </div>
+    </div>
+
+    <!-- Controls -->
+
+</div>
+<div class="jumbotron">
+    <section id="goBot">
+        <div class="panel-default uas">
+            <div class="panel-body apear">
+                Lorem Ipsum Dolor Sit Amet
+            </div>
+            <div class="panel-footer apear">
+                <div class="row apear">
+                    <div class="col-md-4 apear">
+                        <div class="thumbnail yui apear">
+                            <img src="/Theme/asus.jpg" alt="..." class="img-circle prio apear" width="300" height="250">
+                            <div class="caption apear">
+                                <h3 class="text-center apear">Description</h3>
+                                <p class="text-blue text-center apear">Lorem Ipsum Dolor Sit Amet... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                                <p class="text-center apear"><a href="#" class="btn btn-primary" role="button">Saber Mas</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 apear">
+                        <div class="thumbnail yui apear">
+                            <img src="/Theme/aol.jpg" alt="..." class="img-circle prio apear" width="300" height="350">
+                            <div class="caption apear">
+                                <h3 class="text-center apear">Description</h3>
+                                <p class="text-blue text-center apear">Lorem Ipsum Dolor Sit Amet... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                                <p class="text-center apear"><a href="#" class="btn btn-primary" role="button">Saber Mas</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 apear">
+                        <div class="thumbnail yui apear">
+                            <img src="/Theme/call.jpg" alt="..." class="img-circle prio apear" width="300" height="250">
+                            <div class="caption">
+                                <h3 class="text-center apear">Description</h3>
+                                <p class="text-blue text-center apear">Lorem Ipsum Dolor Sit Amet... Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
+                                <p class="text-center apear"><a href="#" class="btn btn-primary" role="button">Saber Mas</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="jumbotron">
+    <section id="goBot2">
+        <div class="panel-primary">
+            <div class="panel-body">
+                <div class="panel-heading">Lorem Ipsum Dolor Sit Amet</div>
+            </div>
+            <div class="panel-footer">
+                <p class="text-center"><img src="/Theme/asus.jpg" class="img-circle" width="400" height="400" /></p>
+                <h3 class="text-navy">Mauris et consequat lectus. Sed venenatis hendrerit lacus et egestas. Suspendisse potenti. Duis sit amet erat ultricies, semper lacus sit amet, scelerisque tortor. Mauris vel eros mi. Nulla placerat rutrum tortor, vitae consequat nulla auctor non. Donec porttitor varius ultrices. Cras mattis lacinia cursus. Aenean consequat vitae ante ut eleifend. Duis egestas rutrum dapibus. Sed maximus lacus felis, et ullamcorper sem congue eget. Mauris bibendum ligula vel purus tristique feugiat.</h3>
+            </div>
+        </div>
+    </section>
+</div>

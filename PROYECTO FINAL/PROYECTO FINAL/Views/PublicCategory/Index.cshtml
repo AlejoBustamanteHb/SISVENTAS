@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="CategoriaController">
+    <div class="panel-primary" ng-repeat="d in data">
+        <div class="panel-heading">{{d.nombre}}</div>
+        <div class="panel-footer">{{d.descripcion}}</div>
+    </div>
+</div>
+

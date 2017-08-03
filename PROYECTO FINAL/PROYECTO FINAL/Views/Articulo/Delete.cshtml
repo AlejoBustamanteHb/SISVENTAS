@@ -1,0 +1,55 @@
+﻿@model PROYECTO_FINAL.Models.articulo
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Esta seguro de Borrar este Articulo?</h3>
+<div>
+    <div class="jumbotron">
+        <center><img src="~/Uploads/@Html.DisplayFor(model => model.imagen)" class="thumbnail" alt="Alternate Text" width="700" /></center><br /><br />
+        <table class="table table-bordered table-hover alert alert-lineal">
+            <tr>
+                <th>Categoria</th>
+                <td>@Html.DisplayFor(model => model.categoria.nombre)</td>
+            </tr>
+            <tr>
+                <th>Codigo del Articulo</th>
+                <td>@Html.DisplayFor(model => model.codigo)</td>
+            </tr>
+            <tr>
+                <th>Nombre del Articulo</th>
+                <td>@Html.DisplayFor(model => model.nombre)</td>
+            </tr>
+            <tr>
+                <th>Stock</th>
+                <td>@Html.DisplayFor(model => model.stock)</td>
+            </tr>
+            <tr>
+                <th>Descripción del Articulo</th>
+                <td>@Html.DisplayFor(model => model.descripcion)</td>
+            </tr>
+            <tr>
+                <th>Precio del Articulo</th>
+                <td>$ @Html.DisplayFor(model => model.price)</td>
+            </tr>
+        </table>
+    </div>
+
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" />
+            <nav aria-label="...">
+                <ul class="pager">
+                    <li class="previous"><a href="/Articulo/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+                </ul>
+            </nav>
+        </div>
+    }
+</div>

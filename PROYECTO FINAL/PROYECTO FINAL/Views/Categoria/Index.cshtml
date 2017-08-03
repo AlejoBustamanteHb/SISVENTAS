@@ -1,0 +1,40 @@
+﻿@model IEnumerable<PROYECTO_FINAL.Models.categoria>
+
+@{
+    ViewBag.Title = "Categorias";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Listado de Categorias</h2>
+
+<p>
+    <a href="/Categoria/Create" class="btn btn-success">Nueva Categoria</a>
+</p>
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>
+            Nombre de La Categoria
+        </th>
+        <th>
+            Descripcion de La Categoria
+        </th>
+        <th>Acciones</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.idcategoria }, new { @class = "btn btn-primary" }) 
+            @Html.ActionLink("Detalles", "Details", new { id = item.idcategoria }, new { @class = "btn btn-info" }) 
+            @Html.ActionLink("Eliminar", "Delete", new { id = item.idcategoria }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

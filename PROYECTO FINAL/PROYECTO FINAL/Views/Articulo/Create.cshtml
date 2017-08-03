@@ -1,0 +1,70 @@
+﻿@model PROYECTO_FINAL.Models.articulo
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Nuevo Articulo</h2>
+
+@using (Html.BeginForm("Create", "Articulo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Categoria del Articulo</span>
+            @Html.DropDownList("idcategoria", null, String.Empty, new { @class="form-control" })
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Codigo del Articulo</span>
+            <input type="text" name="codigo" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Nombre del Articulo</span>
+            <input type="text" name="nombre" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Stock (Cantidad del Articulo)</span>
+            <input type="text" name="stock" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Descripción del Articulo</span>
+            <input type="text" name="descripcion" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Imagen del Articulo</span>
+            <input type="file" name="file" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Estado del Articulo</span>
+            <input type="text" name="estado" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br />
+
+        <div class="input-group col-md-4">
+            <span class="input-group-addon" id="ariaAdd">Precio del Articulo</span>
+            <input type="number" name="price" value=" " class="form-control" aria-describedby="ariaAdd" />
+        </div><br /><br /><br />
+
+
+        <div class="input-group">
+           <input type="submit" value="Agregar" class="btn btn-success" />
+        </div>
+    </div>
+}
+
+<nav aria-label="...">
+    <ul class="pager">
+        <li class="previous"><a href="/Articulo/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+    </ul>
+</nav>
