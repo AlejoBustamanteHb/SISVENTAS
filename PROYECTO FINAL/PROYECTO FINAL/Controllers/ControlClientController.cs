@@ -8,7 +8,7 @@ namespace PROYECTO_FINAL.Controllers
 {
     public class ControlClientController : Controller
     {
-        PROYECTO_FINALContext db = new PROYECTO_FINALContext();
+        ApplicationDbContext db = new ApplicationDbContext();
         //
         // GET: /ControlClient/
         public ActionResult Index()
@@ -31,3 +31,4 @@ namespace PROYECTO_FINAL.Controllers
 
 	}
 }
+

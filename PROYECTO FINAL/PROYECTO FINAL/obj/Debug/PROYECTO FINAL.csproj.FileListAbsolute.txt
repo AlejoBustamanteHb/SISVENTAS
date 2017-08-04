@@ -152,3 +152,80 @@ C:\Users\Soporte\Documents\Visual Studio 2013\Projects\WebApplication2\PROYECTO 
 C:\Users\Soporte\Documents\Visual Studio 2013\Projects\WebApplication2\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.Cache
 C:\Users\Soporte\Documents\Visual Studio 2013\Projects\WebApplication2\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.dll
 C:\Users\Soporte\Documents\Visual Studio 2013\Projects\WebApplication2\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\PROYECTO FINAL.dll.config
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\PROYECTO FINAL.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\PROYECTO FINAL.pdb
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Antlr3.Runtime.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\EntityFramework.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\EntityFramework.SqlServer.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Newtonsoft.Json.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Owin.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Helpers.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Mvc.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Optimization.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Razor.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.Razor.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\WebGrease.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Helpers.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Mvc.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Optimization.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.Razor.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\System.Web.WebPages.Razor.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Newtonsoft.Json.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Antlr3.Runtime.pdb
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\EntityFramework.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\EntityFramework.SqlServer.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.Razor.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\EntityFramework.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csprojResolveAssemblyReference.cache
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Migrations.InitialModel.resources
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Migrations.SeedUsers.resources
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.Cache
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.dll
+C:\Users\Soporte\Desktop\GITHUB\PROYECTO FINAL\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb

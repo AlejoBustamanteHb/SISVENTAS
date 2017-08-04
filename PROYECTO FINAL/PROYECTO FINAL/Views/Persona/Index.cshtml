@@ -2,69 +2,70 @@
 
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Listado de Clientes y Proveedores</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a href="/Persona/Create" class="btn btn-success">Nuevo</a>
 </p>
-<table class="table">
+<table class="table table-bordered table-hover">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.tipo_persona)
+            Tipo de Persona
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.nombre)
+            Nombres
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.tipo_documento)
+            Tipo de Identificación
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.num_documento)
+            Numero de Identificación
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.direccion)
+            Dirección
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.telefono)
+            Telefono
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.email)
+            Correo Electronico
         </th>
-        <th></th>
+        <th>Acción</th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.tipo_persona)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.tipo_documento)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.num_documento)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.direccion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.telefono)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.email)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.idpersona }) |
-            @Html.ActionLink("Details", "Details", new { id=item.idpersona }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.idpersona })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo_persona)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tipo_documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.num_documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                <p class="text-center"> @Html.ActionLink("Editar", "Edit", new { id = item.idpersona }, new { @class = "btn btn-primary" }) </p>
+                <p class="text-center"> @Html.ActionLink("Detalles", "Details", new { id = item.idpersona }, new { @class = "btn btn-info" }) </p>
+                <p class="text-center"> @Html.ActionLink("Eliminar", "Delete", new { id = item.idpersona }, new { @class = "btn btn-danger" })</p>
+            </td>
+        </tr>
+    }
 
 </table>

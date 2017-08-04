@@ -48,7 +48,15 @@
 
         <div class="input-group col-md-4">
             <span class="input-group-addon" id="ariaAdd">Estado del Articulo</span>
-            <input type="text" name="estado" value=" " class="form-control" aria-describedby="ariaAdd" />
+            @Html.DropDownList(
+            "tipo_persona",
+                new List<SelectListItem>
+                {
+                    new SelectListItem { Text = "", Value = "" },
+                    new SelectListItem { Text = "Activo",  Value = "Activo" },
+                    new SelectListItem { Text = "Inactivo",  Value = "Inactivo" }
+                },
+            new { @class = "form-control" })
         </div><br /><br />
 
         <div class="input-group col-md-4">

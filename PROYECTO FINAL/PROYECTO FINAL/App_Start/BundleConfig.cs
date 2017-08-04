@@ -18,7 +18,11 @@ namespace PROYECTO_FINAL
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                         "~/Scripts/angular.min.js",
                         "~/Scripts/app/app.js",
-                        "~/Scripts/app/categoria.controller.js"));
+                        "~/Scripts/app/user.controller.js",
+                        "~/Scripts/app/app2.js",
+                        "~/Scripts/app/admin.controller.js",
+                        "~/Scripts/app/app3.js",
+                        "~/Scripts/app/articulo.controller.js"));
 
             // Utilice la versión de desarrollo de Modernizr para desarrollar y obtener información sobre los formularios. De este modo, estará
             // preparado para la producción y podrá utilizar la herramienta de compilación disponible en http://modernizr.com para seleccionar solo las pruebas que necesite.

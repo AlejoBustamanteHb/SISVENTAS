@@ -16,7 +16,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini" ng-app="app2">
     <div class="wrapper">
         <header class="main-header">
 
@@ -88,7 +88,7 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="/Home/Index"><i class="fa fa-circle-o"></i>Index</a></li>
-                            <li><a href="/ControlClient/Index"><i class="fa fa-circle-o"></i>Articulos</a></li>
+                            <li><a href="/Articulo/Index"><i class="fa fa-circle-o"></i>Articulos</a></li>
                         </ul>
                     </li>
 
@@ -110,7 +110,7 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="/Venta/Index"><i class="fa fa-circle-o"></i> Ventas</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Clientes</a></li>
+                            <li><a href="/Admin/ListaClientes"><i class="fa fa-circle-o"></i> Clientes</a></li>
                         </ul>
                     </li>
                     <li class="treeview">
@@ -121,8 +121,7 @@
                         </a>
                         <ul class="treeview-menu">
                             <li><a href="/Ingreso/Index"><i class="fa fa-circle-o"></i> Ingresos</a></li>
-                            <li><a href="/Articulo/Index"><i class="fa fa-circle-o"></i> Articulos</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Prooveedores</a></li>
+                            <li><a href="/Admin/ListaProveedores"><i class="fa fa-circle-o"></i> Prooveedores</a></li>
                             <li><a href="/Persona/Index"><i class="fa fa-circle-o"></i> Personas</a></li>
                         </ul>
                     </li>

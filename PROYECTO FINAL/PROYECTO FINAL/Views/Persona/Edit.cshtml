@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "Edit";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
 <h2>Edit</h2>
@@ -81,6 +81,8 @@
     </div>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+<nav aria-label="...">
+    <ul class="pager">
+        <li class="previous"><a href="/Persona/Index"><span aria-hidden="true">&larr;</span> Volver</a></li>
+    </ul>
+</nav>

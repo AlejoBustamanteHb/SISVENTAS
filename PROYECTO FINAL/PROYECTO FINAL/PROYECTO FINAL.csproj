@@ -161,6 +161,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ArticuloController.cs" />
     <Compile Include="Controllers\CategoriaController.cs" />
     <Compile Include="Controllers\ControlClientController.cs" />
@@ -253,8 +254,12 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\app.min.js" />
+    <Content Include="Scripts\app\admin.controller.js" />
     <Content Include="Scripts\app\app.js" />
-    <Content Include="Scripts\app\categoria.controller.js" />
+    <Content Include="Scripts\app\app2.js" />
+    <Content Include="Scripts\app\app3.js" />
+    <Content Include="Scripts\app\articulo.controller.js" />
+    <Content Include="Scripts\app\user.controller.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\SisVentas.edmx">
@@ -425,11 +430,8 @@
     <Content Include="Views\Domicilio\Details.cshtml" />
     <Content Include="Views\Domicilio\Edit.cshtml" />
     <Content Include="Views\Domicilio\Index.cshtml" />
-    <Content Include="Views\Categoria2\Create.cshtml" />
-    <Content Include="Views\Categoria2\Delete.cshtml" />
-    <Content Include="Views\Categoria2\Details.cshtml" />
-    <Content Include="Views\Categoria2\Edit.cshtml" />
-    <Content Include="Views\Categoria2\Index.cshtml" />
+    <Content Include="Views\Admin\ListaClientes.cshtml" />
+    <Content Include="Views\Admin\ListaProveedores.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

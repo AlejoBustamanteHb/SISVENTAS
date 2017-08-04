@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "ListaClientes";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container" ng-controller="adminController">
+    <div class="panel panel-info col-md-4" ng-repeat="client in listPersons track by $index" ng-if="client.tipo_persona == 'Cliente'">
+        <div class="panel-heading">{{client.nombre}}</div>
+        <div class="panel-body">
+            <div class="thumbnail cajaTienda">
+                <img ng-src="/Uploads/person10.jpg" class="img-circle prio" alt="Alternate Text" />
+                <div class="caption">
+                    <h2 class="text-info">{{client.tipo_documento}} : {{client.num_documento}}</h2>
+                    <h2 class="text-aqua">Dirección : {{client.direccion}}</h2>
+                    <h2 class="text-aqua">Telefono : {{client.telefono}}</h2>
+                    <h3 class="text-aqua">{{client.email}}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-pagination="" data-num-pages="numPages()"
+         data-current-page="currentPage" data-max-size="maxSize"
+         data-boundary-links="true">
+    </div>
+</div>
+

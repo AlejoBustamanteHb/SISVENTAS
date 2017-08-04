@@ -75,13 +75,14 @@
         function getArticles() {
             $http.get('/ControlClient/ArticleList')
             .then(function (response) {
+                console.log(response);
                 $scope.data2 = (response.data);
             }, function (error) {
                 console.log(error);
             });
         }
 
-    }
+    }//Fin ArticuloController
 
 
 })();
